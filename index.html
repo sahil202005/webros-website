@@ -445,7 +445,7 @@ h1 span{background:linear-gradient(100deg,var(--blue),var(--cyan));-webkit-backg
         <select id="plan" name="plan">
           <option>Not sure yet — recommend one</option>
           <option>Standard package — ₹X,999</option>
-          <option>Pro package — ₹XX,999</option>
+          <option>Pro package — ₹1X,999</option>
         </select>
       </div>
       <div class="field"><label for="details">What would you like your website to do?</label><textarea id="details" name="details" placeholder="Tell us about your services, products or any features you need."></textarea></div>
@@ -524,7 +524,7 @@ h1 span{background:linear-gradient(100deg,var(--blue),var(--cyan));-webkit-backg
       const selectedPlan = link.dataset.plan;
       plan.value = selectedPlan === 'Standard package'
         ? 'Standard package — ₹X,999'
-        : 'Pro package — ₹XX,999';
+        : 'Pro package — ₹1X,999';
     }
   }));
 
